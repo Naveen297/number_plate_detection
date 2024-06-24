@@ -1,0 +1,22 @@
+# Paths to your dataset directories for training, validation, and testing
+train: /Users/naveenmalhotra/Downloads/NUMBER_PLATE_DETECTION/DATASET/train/images
+val: /Users/naveenmalhotra/Downloads/NUMBER_PLATE_DETECTION/DATASET/valid/images
+test: /Users/naveenmalhotra/Downloads/NUMBER_PLATE_DETECTION/DATASET/test/images
+
+# Number of classes in your dataset (in this case, only 1 class: 'license_plate')
+nc: 1
+# List of class names in your dataset
+names: ['license_plate']
+
+# Roboflow project information for dataset integration
+roboflow:
+  # The workspace name on Roboflow
+  workspace: kongu-engineering-college
+  # The project name on Roboflow
+  project: vehicle-number-plate-detection
+  # Version number of the dataset
+  version: 1
+  # License type for the dataset
+  license: CC BY 4.0
+  # URL to access the dataset on Roboflow
+  url: https://universe.roboflow.com/kongu-engineering-college/vehicle-number-plate-detection/dataset/1
